@@ -1,5 +1,5 @@
 import React from 'react';
-import { ULlist, NavContainer, LISTYLE, ALIGNLIST,LinkOption } from './nav.styles'
+import { ULlist, NavContainer, LISTYLE, ALIGNLIST, LinkOption } from './nav.styles'
 
 const Nav = () => {
     return (

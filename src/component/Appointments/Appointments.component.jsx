@@ -8,17 +8,18 @@ const Appointments = () => {
                     <H3Syled> Appointments  </H3Syled>
                     <ALIGNLIST className="container">
                         <ULlist>
-                            <LISTYLE> <LinkOption>Upcoming</LinkOption> </LISTYLE>
-                            <LISTYLE> <LinkOption>Requested</LinkOption></LISTYLE>
-
+                            <LISTYLE>
+                                 <LinkOption>Upcoming</LinkOption> 
+                                 </LISTYLE>
+                            <LISTYLE> 
+                                <LinkOption>Requested</LinkOption>
+                                </LISTYLE>
                         </ULlist>
                     </ALIGNLIST>
                     <Phargraph className="container">No appointments.</Phargraph>
-
                 </div>
             </ContainerContentPage>
         </ContainerPageColor>
     );
 }
-
 export default Appointments;

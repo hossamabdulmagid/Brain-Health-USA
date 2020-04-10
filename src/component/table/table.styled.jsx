@@ -12,8 +12,6 @@ font-family: arial, sans-serif;
 padding:2px;
 text-align: right;
 `;
-
-
 export const TR = styled.tr`
 border-bottom: 1px solid darkgrey;
 padding:2px;

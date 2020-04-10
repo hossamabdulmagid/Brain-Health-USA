@@ -16,5 +16,4 @@ const Documents = () => {
         </ContainerPageColor>
     );
 }
-
 export default Documents;

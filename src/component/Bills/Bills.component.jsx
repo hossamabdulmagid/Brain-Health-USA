@@ -7,11 +7,7 @@ const Bills = () => {
                 <div className="container">
                     <H3Syled>Billing & Payments </H3Syled>
                     <DivStyle>
-
-
                         <Phargraph> You have a credit of $1</Phargraph>
-
-
                     </DivStyle>
                 </div>
                 <H4Style>invoice(1)</H4Style>
@@ -19,29 +15,17 @@ const Bills = () => {
                     <Table>
                         <thead>
                             <TR>
-                                <TH>
-                                    Date
-                            </TH>
-                                <TH>
-                                    Details
-                            </TH>
-                                <TH>
-                                    Charges
-                            </TH>
-                                <TH>
-                                    Payments
-                            </TH>
-                                <TH>
-                                    Balance
-                            </TH>
-
+                                <TH> Date </TH>
+                                <TH>Details </TH>
+                                <TH>Charges</TH>
+                                <TH> Payments</TH>
+                                <TH>Balance</TH>
                             </TR>
                         </thead>
-
                     </Table>
                     <Container>
-                        No pending invoices.  <LinkOption>View All </LinkOption>
-
+                        No pending invoices.
+                         <LinkOption>View All </LinkOption>
                     </Container>
                     <DivRapperTable>
                         <HStyle>Statements(0)</HStyle>
@@ -53,10 +37,8 @@ const Bills = () => {
                         <HStyle>Acc History(0)</HStyle>
                     </DivRapperTable>
                 </div>
-
             </ContainerContentPage>
         </ContainerPageColor>
     );
 }
-
 export default Bills;

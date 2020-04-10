@@ -6,6 +6,7 @@ import Bills from './component/Bills/Bills.component'
 import Documents from './component/Documents/Documents.component'
 import Header from './component/header/header.component'
 import Nav from './component/nav/nav.component'
+import SignIn from './component/Sign-in/sign-in.component'
 const App = () => {
   return (
 
@@ -18,7 +19,7 @@ const App = () => {
         <Route exact path='/' component={Appointments} />
         <Route path='/documents' component={Documents} />
         <Route path='/bills' component={Bills} />
-
+        <Route path='/signin' component={SignIn} />
 
       </Switch>
     </div>
