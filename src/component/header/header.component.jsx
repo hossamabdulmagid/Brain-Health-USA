@@ -5,8 +5,8 @@ const Header = () => {
         <HeaderContainerPage>
             <div className="container">
                 <OptionsContainer>
-                    <OptionLink> Brain Health USA </OptionLink>
-                    <LinkOption>Sign Out</LinkOption>
+                    <OptionLink to='/'> Brain Health USA </OptionLink>
+                    <LinkOption to='/'>Sign Out</LinkOption>
                 </OptionsContainer>
             </div>
         </HeaderContainerPage>

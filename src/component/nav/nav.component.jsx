@@ -1,5 +1,5 @@
 import React from 'react';
-import { ULlist, NavContainer, LISTYLE, ALIGNLIST } from './nav.styles'
+import { ULlist, NavContainer, LISTYLE, ALIGNLIST,LinkOption } from './nav.styles'
 
 const Nav = () => {
     return (
@@ -8,13 +8,13 @@ const Nav = () => {
                 <ALIGNLIST>
                     <ULlist>
                         <LISTYLE>
-                            <a href="" to='/Appointments'> Appointments</a>
+                            <LinkOption to='/'> Appointments</LinkOption>
                         </LISTYLE>
                         <LISTYLE>
-                            <a href="" to='/Documents'>Documents </a>
+                            <LinkOption to='/documents'>Documents </LinkOption>
                         </LISTYLE>
                         <LISTYLE>
-                            <a href="" to='/Billing & Payments'>Billing & Payments </a>
+                            <LinkOption to='/bills'>Billing & Payments </LinkOption>
                         </LISTYLE>
                     </ULlist>
                 </ALIGNLIST>

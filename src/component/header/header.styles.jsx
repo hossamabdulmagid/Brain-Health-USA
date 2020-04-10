@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-
 export const HeaderContainerPage = styled.div`
     background-color: #2767a5;
     background-image: url(https://widget-cdn.simplepractice.com/assets/images/site-header-429abb4628bfbbbd6073a1476b7c1cf3.png);
@@ -29,7 +28,6 @@ export const OptionsContainer = styled.div`
     width: 80%;
   }
 `;
-
 export const OptionLink = styled(Link)`
   padding: 14px 14px;
   cursor: pointer;
@@ -44,8 +42,6 @@ export const OptionLink = styled(Link)`
       text-decoration:none;
   }
 `;
-
-
 export const LinkOption = styled(Link)`
 font-size:13px;
     display: flex;
