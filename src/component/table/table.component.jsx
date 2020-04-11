@@ -19,42 +19,42 @@ const TableDoucments = () => {
                 <tbody>
                     <TR>
                         <td>
-                            <span>&#xf0f6;</span>
+                            <i class="fa">&#xf0f6;</i>
                             <LinkOption> Consent for Telehealth Consultation </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>
                     </TR>
                     <TR>
                         <td>
-                            <span>&#xf0f6;</span>
+                            <i class="fa">&#xf0f6;</i>
                             <LinkOption> Notice of Privacy Practices	 </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>
                     </TR>
                     <TR>
                         <td>
-                            <span>&#xf0f6;</span>
+                            <i class="fa">&#xf0f6;</i>
                             <LinkOption> Informed Consent for Psychotherapy </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>
                     </TR>
                     <TR>
                         <td>
-                            <span>&#xf007;</span>
+                            <i class="fa">&#xf0f6;</i>
                             <LinkOption> Practice Policies	 </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>
                     </TR>
                     <TR>
                         <td>
-                            <i class="fa fa-user">&#xf0f6;</i>
+                            <i class="fa fa-user"></i>
                             <LinkOption> Contact Info	 </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>
                     </TR>
                     <TR>
                         <td>
-                            <i class="fa fa-user">&#xf0f6;</i>
+                            <i class="fa">&#xf0f6;</i>
                             <LinkOption> Standard Intake Questionnaire Template		 </LinkOption>
                         </td>
                         <TD>Apr 06, 2020</TD>

@@ -28,10 +28,10 @@ const Bills = () => {
                          <LinkOption>View All </LinkOption>
                     </Container>
                     <DivRapperTable>
-                        <HStyle>Statements(0)</HStyle>
+                        <HStyle>Statements(0)</HStyle> 
                     </DivRapperTable>
                     <DivRapperTable>
-                        <HStyle>Insurance Reimbursement Statement (0)</HStyle>
+                        <HStyle>Insurance Reimbursement Statement (0) </HStyle> 
                     </DivRapperTable>
                     <DivRapperTable>
                         <HStyle>Acc History(0)</HStyle>

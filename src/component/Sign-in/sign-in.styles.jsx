@@ -8,7 +8,7 @@ export const SignInContainer = styled.div`
   align-item:center;
 `;
 
-export const SignInTitle = styled.h2`
+export const SignInTitle = styled.h4`
   margin: 10px 0;
 `;
 

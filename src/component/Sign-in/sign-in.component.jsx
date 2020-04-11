@@ -18,7 +18,6 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
     const handleSubmit = async event => {
         event.preventDefault();
 
-        emailSignInStart(email, password);
     };
 
     const handleChange = event => {
@@ -29,7 +28,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
 
     return (
         <SignInContainer className="container">
-            <SignInTitle>I already have an account</SignInTitle>
+            <SignInTitle>Sign in to the client portal</SignInTitle>
             <span>Sign in with your email and password</span>
 
             <form onSubmit={handleSubmit}>
@@ -50,15 +49,11 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
                     required
                 />
                 <ButtonsBarContainer>
-                    <CustomButton type='submit'> Sign in </CustomButton>
-                    <CustomButton type='button'>
-                        Cancle
-          </CustomButton>
+                    <CustomButton  type='submit'> Sign in </CustomButton>
+                    <CustomButton type='button'>Cancle</CustomButton>
                 </ButtonsBarContainer>
             </form>
         </SignInContainer>
     );
 };
-
-
 export default SignIn;
