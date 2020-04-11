@@ -8,15 +8,12 @@ export const SignInContainer = styled.div`
   text-align:center;
   align-item:center;
 `;
-
 export const SignInTitle = styled.h4`
   margin: 10px 0;
 `;
-
 export const ButtonsBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  
   `;
 export const LinkOption = styled(Link)`
 margin:15px;

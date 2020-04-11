@@ -98,3 +98,6 @@ padding:5px;
 export const HStyle = styled.h4`
 margin:9px;
 `;
+export const DIV = styled.div`
+float:right;
+`

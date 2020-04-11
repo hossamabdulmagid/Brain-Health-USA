@@ -12,26 +12,22 @@ margin-top: 0;
 font-size: 24px;
 font-weight: 400;
 `;
-export const ContentPage = styled.div`
+export const ContentFooter = styled.div`
 border-top: 1px solid #58687f;
 padding: 17px 10px;
 color: #a0aec0;
 font-size: 14px;
 line-height: 17px;
 text-align: center;
-
 `;
 export const LinkOption = styled(Link)`
 margin:15px;
 `;
-
-
 export const H3Stlye = styled.h3`
 margin-top:60px;
 margin-bottom:60px;
-
+color: #f2f8fc;
 `;
-
 export const H5Style = styled.h5`
 color: #a0aec0;
 font-size: 16px;
@@ -41,4 +37,10 @@ margin-bottom: 20px;
 margin-top:60px;
 margin-bottom:20px;
 
+`;
+export const Pharagraph = styled.p`
+font-size:16px;
+margin:bottom:15px;
+color: #f2f8fc;
+padding-bottom:50px;
 `;

@@ -1,8 +1,28 @@
 import React from 'react';
-import { ContainerPageColor, H3Syled, ContainerContentPage, Phargraph, LinkOption, DivStyle, H4Style, Table, TH, TR, Container, DivRapperTable, HStyle } from './Bills.styles';
+import {
+    ContainerPageColor,
+    DIV,
+    H3Syled,
+    ContainerContentPage,
+    Phargraph,
+    LinkOption,
+    DivStyle,
+    H4Style,
+    Table,
+    TH,
+    TR,
+    Container,
+    DivRapperTable,
+    HStyle
+} from './Bills.styles';
+import Nav from '../nav/nav.component'
+import Header from '../header/header.component'
+
 const Bills = () => {
     return (
         <ContainerPageColor>
+            <Header />
+            <Nav />
             <ContainerContentPage>
                 <div className="container">
                     <H3Syled>Billing & Payments </H3Syled>
@@ -28,13 +48,13 @@ const Bills = () => {
                          <LinkOption>View All </LinkOption>
                     </Container>
                     <DivRapperTable>
-                        <HStyle>Statements(0)</HStyle> 
+                        <HStyle>Statements (0)<DIV> <i className="fas fa-angle-down rotate-icon"></i>   </DIV> </HStyle>
                     </DivRapperTable>
                     <DivRapperTable>
-                        <HStyle>Insurance Reimbursement Statement (0) </HStyle> 
+                        <HStyle>Insurance Reimbursement Statement (0) <DIV> <i className="fas fa-angle-down rotate-icon"></i>   </DIV> </HStyle>
                     </DivRapperTable>
                     <DivRapperTable>
-                        <HStyle>Acc History(0)</HStyle>
+                        <HStyle>App History<DIV> <i className="fas fa-angle-down rotate-icon"></i>   </DIV> </HStyle>
                     </DivRapperTable>
                 </div>
             </ContainerContentPage>

@@ -8,7 +8,7 @@ const Nav = () => {
                 <ALIGNLIST>
                     <ULlist>
                         <LISTYLE>
-                            <LinkOption to='/'> Appointments</LinkOption>
+                            <LinkOption to='/Appointments'> Appointments</LinkOption>
                         </LISTYLE>
                         <LISTYLE>
                             <LinkOption to='/documents'>Documents </LinkOption>

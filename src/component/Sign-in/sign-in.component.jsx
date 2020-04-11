@@ -7,7 +7,7 @@ import {
     ButtonsBarContainer,
     LinkOption
 } from './sign-in.styles';
-
+import Header from '../header/header.component'
 const SignIn = () => {
     const [userCredentials, setCredentials] = useState({
         email: '',
@@ -27,7 +27,8 @@ const SignIn = () => {
         setCredentials({ ...userCredentials, [name]: value });
     };
 
-    return (
+    return ( <>
+        <div> <Header /></div>
         <SignInContainer className="container">
             <SignInTitle>Sign in to the client portal</SignInTitle>
 
@@ -49,12 +50,13 @@ const SignIn = () => {
                     required
                 />
                 <ButtonsBarContainer>
-                    <CustomButton type='submit'> Log in </CustomButton>
+                    <CustomButton type='submit' to='/Appointments'> Log in </CustomButton>
                 </ButtonsBarContainer>
                 <LinkOption>Forgot your password?</LinkOption>
 
             </form>
         </SignInContainer>
+        </>
     );
 };
 export default SignIn;

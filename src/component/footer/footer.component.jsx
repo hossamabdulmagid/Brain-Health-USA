@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContainerFooterPage, ContentPage, LinkOption, H3Stlye, H5Style } from './footer.styles'
+import { ContainerFooterPage, ContentFooter, LinkOption, H3Stlye, H5Style, Pharagraph } from './footer.styles'
 const Footer = () => {
     return (
         <ContainerFooterPage>
@@ -13,25 +13,23 @@ const Footer = () => {
 
                     <div className="col-3">
                         <H5Style>Gardena Office</H5Style>
-                        <p>
+                        <Pharagraph>
                             1225 W 190 St. Suite 280
-                            <br />
-                            Gardena, CA 90248
-
-
-                        </p>
+                                    <br />
+                                    Gardena, CA 90248
+                        </Pharagraph>
                     </div>
                     <div className="col-3">
                         <H5Style>Phone</H5Style>
-                        <p>(310) 515-8113 </p>
+                        <Pharagraph>(310) 515-8113 </Pharagraph>
                     </div>
 
                 </div>
 
             </div>
-            <ContentPage>
+            <ContentFooter>
                 Online Booking and Client Portal Services provided by SimplePractice. Read the SimplePractice  <LinkOption>Privacy Policy</LinkOption>
-            </ContentPage>
+            </ContentFooter>
         </ContainerFooterPage>
     );
 }

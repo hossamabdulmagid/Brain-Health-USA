@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-
+import { Link } from 'react-router-dom'
 const buttonStyles = css`
   background-color: #295c73;
   border-color: #295c73;
@@ -33,9 +33,8 @@ const getButtonStyles = props => {
   }
   return props.inverted ? invertedButtonStyles : buttonStyles;
 };
-
-export const CustomButtonContainer = styled.button`
-padding: 1px;
+export const CustomButtonContainer = styled(Link)`
+padding: 8px;
 height:35px;
 font-size: 14px;
 letter-spacing: 0.5px;

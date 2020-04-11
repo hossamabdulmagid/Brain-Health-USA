@@ -11,6 +11,7 @@ color: #fff;
 justify-content: space-between;
 display: block;
 text-align: center;
+
 @media screen and (max-width: 800px) {
         height: 60px;
         padding: 10px;
@@ -23,6 +24,7 @@ height: 100%;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+
 @media screen and (max-width: 800px) {
     width: 80%;
   }
