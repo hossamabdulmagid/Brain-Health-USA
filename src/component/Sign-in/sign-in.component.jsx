@@ -4,10 +4,11 @@ import CustomButton from '../custom-button/custom-button.component'
 import {
     SignInContainer,
     SignInTitle,
-    ButtonsBarContainer
+    ButtonsBarContainer,
+    LinkOption
 } from './sign-in.styles';
 
-const SignIn = ({ emailSignInStart, googleSignInStart }) => {
+const SignIn = () => {
     const [userCredentials, setCredentials] = useState({
         email: '',
         password: ''
@@ -29,7 +30,6 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
     return (
         <SignInContainer className="container">
             <SignInTitle>Sign in to the client portal</SignInTitle>
-            <span>Sign in with your email and password</span>
 
             <form onSubmit={handleSubmit}>
                 <FormInput
@@ -49,9 +49,10 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
                     required
                 />
                 <ButtonsBarContainer>
-                    <CustomButton  type='submit'> Sign in </CustomButton>
-                    <CustomButton type='button'>Cancle</CustomButton>
+                    <CustomButton type='submit'> Log in </CustomButton>
                 </ButtonsBarContainer>
+                <LinkOption>Forgot your password?</LinkOption>
+
             </form>
         </SignInContainer>
     );

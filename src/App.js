@@ -7,12 +7,11 @@ import Documents from './component/Documents/Documents.component'
 import Header from './component/header/header.component'
 import Nav from './component/nav/nav.component'
 import SignIn from './component/Sign-in/sign-in.component'
+import Footer from './component/footer/footer.component'
 const App = () => {
   return (
 
     <div>
-
-
       <Header />
       <Nav />
       <Switch>
@@ -22,6 +21,7 @@ const App = () => {
         <Route path='/signin' component={SignIn} />
 
       </Switch>
+      <Footer />
     </div>
   );
 }
