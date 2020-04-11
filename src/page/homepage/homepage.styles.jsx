@@ -88,7 +88,6 @@ grid-template-rows: fit-content(15%) auto fit-content(25%);
 color:black;
 padding-bottom:30px;
 `;
-
 export const SPAN = styled.span`
 text-align:right;
 padding:5px;
@@ -96,28 +95,11 @@ margin:0auto;
 font-size:20px;
 padding-top:10px;
 color: #4b5459;
-
 `;
-
-export const RapperDiv = styled.div`
-text-align:center;
-width:200px;
-margin:0 auto;
-border:1px solid gray;
-width:auto;
-padding-bottom:30px;
-
-
-`;
-
 export const Span = styled.span`
 pading-top:15px;
 color: #4b5459;
-
 `;
-
-
-
 export const AnotherDiv = styled.div`
 max-width: 600px;
 margin: 0 auto 20px;
