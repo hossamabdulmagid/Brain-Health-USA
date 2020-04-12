@@ -50,5 +50,8 @@ border-radius: 4px;
 display: inline-block;
 width: 120px;
 margin-bottom: 40px;
+&:hover{
+  color:white;
+}
   ${getButtonStyles}
 `;

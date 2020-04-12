@@ -21,11 +21,11 @@ const HomePage = () => {
             </HeaderContainerPage>
 
             <DIVVW className="container">
-                <img className="container" src='./staticmap.png'alt=""   />
+                <img className="container" src='./staticmap.png' alt="" />
                 <Span> Gardena Office <br />
                         1225 W 190 St. Suite 280 <br />
-                            Gardena, CA 90248  </Span>
-                             <LinkOption>Directions  </LinkOption> 
+                            Gardena, CA 90248  </Span> <br />
+                <LinkOption>Directions  </LinkOption>
 
             </DIVVW>
             <AnotherDiv className="container">

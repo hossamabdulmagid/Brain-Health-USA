@@ -5,7 +5,8 @@ import {
     SignInContainer,
     SignInTitle,
     ButtonsBarContainer,
-    LinkOption
+    LinkOption,
+    ContainerPageColor
 } from './sign-in.styles';
 import Header from '../header/header.component'
 const SignIn = () => {
@@ -29,6 +30,7 @@ const SignIn = () => {
 
     return ( <>
         <div> <Header /></div>
+        <ContainerPageColor className="container">
         <SignInContainer className="container">
             <SignInTitle>Sign in to the client portal</SignInTitle>
 
@@ -56,6 +58,7 @@ const SignIn = () => {
 
             </form>
         </SignInContainer>
+        </ContainerPageColor>
         </>
     );
 };

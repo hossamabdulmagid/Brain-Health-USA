@@ -114,4 +114,6 @@ grid-template-rows: fit-content(15%) auto fit-content(25%);
 color:black;
 padding-bottom:30px;
 margin-bottom:35px;
+border-radius: 4px;
+
 `;
